@@ -1,67 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LAB-5 External CSS</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LAB-5 External CSS</title>
 
-    <style>
-        body {
-          background-color: linen;
-        }
-        
-        h1 {
-          color: maroon;
-          margin-left: 40px;
-          text-align: center;
-        } 
+  <style>
+    body {
+      background-color: linen;
+    }
 
-        p {
-        
-        margin-bottom: 80px;
-        margin-right: 150px;
-        margin-left: 80px;
-        margin-top:-5px;
-      }  
-     
-      .column {
-  float: left;
-  width: 30%;
-  padding: 20px;
-}
+    h1 {
+      color: maroon;
+      margin-left: 40px;
+      text-align: center;
+    }
 
-/* Clear floats after image containers */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
+    p {
 
-        </style>
-        </head>
+      margin-bottom: 80px;
+      margin-right: 150px;
+      margin-left: 80px;
+      margin-top: -5px;
+    }
+
+    .column {
+      float: left;
+      width: 30%;
+      padding: 20px;
+    }
+
+    .bodybg {
+      background-color: azure;
+      background-image: url(bg.jpg);
+    }
+
+    .h1style {
+      color: azure;
+      background: black;
+      text-align: center;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+    .h2style {
+      color: black;
+      background: rgb(166, 171, 171);
+      text-align: center;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    /* Clear floats after image containers */
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+  </style>
 </head>
+
 <body>
-    <h1><u>COVID-19 PROTOCOLS RULES AND REGULATIONS</u></h1>
-    
-    <div class="row">
-        <div class="column">
-          <img src="download.jpeg" style="width:80%" >
-        </div>
-        <div class="column">
-          <img src="images.jpeg"  style="width:75%" >
-        </div>
-        <div class="column">
-          <img src="fourthlab.jpeg"  style="width:80%">
-        </div>
-      </div>
-    <br>
-    <p>
-      If you have COVID-19, you can spread the virus to others. There are precautions you can take to prevent spreading it to others: isolation, masking, and avoiding contact with people who are at high risk of getting very sick. Isolation is used to separate people with confirmed or suspected COVID-19 from those without COVID-19.
-      
-      These recommendations do not change based on COVID-19 Community Levels. If you have COVID-19, also see additional information on treatments that may be available to you.
-      
-      This information is intended for a general audience. Healthcare professionals should see Ending Isolation and Precautions for People with COVID-19. This CDC guidance is meant to supplement—not replace—any federal, state, local, territorial, or tribal health and safety laws, rules, and regulations.</p>
-      
-  </body>
-  </html>
+  <h1 class="h1style"> LAB 05 </h1>
+  <h2 class="h2style"> Implimentation of External CSS </h2>
+  <div class="row">
+    <div class="column">
+      <img src="Royal-Enfield-Himalayan-650-Launch.jpg" style="width:80%">
+    </div>
+    <div class="column">
+      <img src="royal-enfield-himalayan-bs6-m.jpg" style="width:75%">
+    </div>
+    <div class="column">
+      <img src="20210211124840_2021_Royal_Enflied_Himalayan_1.jpg" style="width:80%">
+    </div>
+  </div>
+  <br>
+  <p>
+    The Story
+    Decades of expeditions. Thousands of kilometers of traversing the most challenging terrain. Years of living and
+    evolving with a machine that responds to the mountains. That's how we made the Himalayan, our first dual-purpose
+    motorcycle. <br>
+
+    ADVENTURE-READY HANDLING
+    The half-duplex split cradle frame and long travel suspension keep you in harmony with road, rocks, and everything
+    in between. <br>
+
+    VERSATILE PERFORMANCE
+    800mm seat height, perfectly positioned footpegs and handlebars reduce fatigue and give you a comfortable upright
+    riding position whether you sit or stand. <br>
+
+    TOUR-MINDED DESIGN
+    The new improved seat lets you cover longer distances with even more comfort. Panniers at the back. Jerry cans in
+    the front. The Himalayan's mounting points let you strap up and set off anytime. The LCD dashboard lets you track
+    everything from miles to maintenance.
+  </p>
+
+</body>
+
+</html>
