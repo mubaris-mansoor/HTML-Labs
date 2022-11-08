@@ -1,0 +1,70 @@
+.navy {
+    color: whitesmoke;
+    font-family: sans-serif;
+}
+
+strong {
+    color: black;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    max-height: 100%;
+    max-width: 100%;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.img1{
+    background-image: url("2021-Himalayan-Royal-Enfield-7.jpg");
+
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+}
+
+.container:hover .image {
+    opacity: 0.3;
+}
+
+.container:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+.heading {
+    color: azure;
+    background: black;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.heading2 {
+    color: black;
+    background: rgb(166, 171, 171);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

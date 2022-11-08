@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAB-5 External CSS</title>
+
+    <style>
+        body {
+          background-color: linen;
+        }
+        
+        h1 {
+          color: maroon;
+          margin-left: 40px;
+          text-align: center;
+        } 
+
+        p {
+        
+        margin-bottom: 80px;
+        margin-right: 150px;
+        margin-left: 80px;
+        margin-top:-5px;
+      }  
+     
+      .column {
+  float: left;
+  width: 30%;
+  padding: 20px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+        </style>
+        </head>
+</head>
+<body>
+    <h1><u>COVID-19 PROTOCOLS RULES AND REGULATIONS</u></h1>
+    
+    <div class="row">
+        <div class="column">
+          <img src="download.jpeg" style="width:80%" >
+        </div>
+        <div class="column">
+          <img src="images.jpeg"  style="width:75%" >
+        </div>
+        <div class="column">
+          <img src="fourthlab.jpeg"  style="width:80%">
+        </div>
+      </div>
+    <br>
+    <p>
+      If you have COVID-19, you can spread the virus to others. There are precautions you can take to prevent spreading it to others: isolation, masking, and avoiding contact with people who are at high risk of getting very sick. Isolation is used to separate people with confirmed or suspected COVID-19 from those without COVID-19.
+      
+      These recommendations do not change based on COVID-19 Community Levels. If you have COVID-19, also see additional information on treatments that may be available to you.
+      
+      This information is intended for a general audience. Healthcare professionals should see Ending Isolation and Precautions for People with COVID-19. This CDC guidance is meant to supplement—not replace—any federal, state, local, territorial, or tribal health and safety laws, rules, and regulations.</p>
+      
+  </body>
+  </html>
